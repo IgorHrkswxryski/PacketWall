@@ -76,6 +76,6 @@ trap repare INT
 while true; do
     echo ""
     echo "/!\\ Launching listenner : ncat -lk 12345 /!\\"
-    echo "Launch the following command on your cilent to get all output path from it to the server : nmap -sT [SERVER_IP] -p-"
+    echo "Launch the following command on your client to get all output path from it to the server : nmap -sT [SERVER_IP] -p-"
     ncat -lk 12345
 done
