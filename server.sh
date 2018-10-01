@@ -22,7 +22,7 @@ echo ""
 echo "By continuying this programm, you will redirect all your inbound (TCP and UDP) traffic, except port 22 (e.g. ssh) to a local port (12345)"
 
 echo ""
-echo "Would you like to continue?"
+echo "Would you like to continue (flushing firewall rules and redirect traffic)?"
 read -p '"yes or no": ' resp2
 if [ $resp2 = 'yes'  ]
 then
