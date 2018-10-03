@@ -12,3 +12,4 @@ On the server, this script will redirect all ports (except port TCP/UDP 22) to o
 
 # TODO
 * Add supportfor other OS (eg. MAC OS with pfctl client)
+* Make UDP Wall scanner works properly
