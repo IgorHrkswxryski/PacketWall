@@ -9,3 +9,6 @@ It will help you to audit your outbound traffic policy from your local network t
 
 # How it works ?
 On the server, this script will redirect all ports (except port TCP/UDP 22) to one port (12345) and it will spawn a netcat listenner on this port (all 65535 ports of the server will appear as open). So, When you will scan this server, it will show you the outbound firewall policy of your local network.
+
+# TODO
+* Add supportfor other OS (eg. MAC OS with pfctl client)
